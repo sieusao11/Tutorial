@@ -1,0 +1,13 @@
+<% provide(:title, t(".contact")) %>
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= yield(:title) %></title>
+</head>
+<body>
+	<h1><%= t ".contact" %></h1>
+	<p>
+	  <%= t(".link", url: link_to(t(".title_link"), "http://www.railstutorial.org/contact")).html_safe %>
+	</p>
+</body>
+</html>
