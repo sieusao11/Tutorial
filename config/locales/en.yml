@@ -29,4 +29,4 @@ en:
       title_link: "contact page"
   layouts:
     application: 
-      title: "| Ruby on Rails Tutorial Sample App"
+      title: "Ruby on Rails Tutorial Sample App"
